@@ -3,7 +3,6 @@
 }
 
 body{
-    border: px solid red;
     width: 100%;
     line-height: 1;
     min-height: 100vh;
@@ -51,4 +50,11 @@ body{
 
 .botao:active{
     border: 5px solid rgb(66, 66, 66);
+}
+
+@media screen and (max-width: 480px) {
+    
+    #calculadora{
+        width: 90%;
+    }
 }
